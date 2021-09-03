@@ -1,4 +1,4 @@
-# ehealth_booka
+# ehealth
 
 ## Project setup
 ```

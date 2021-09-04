@@ -1,10 +1,11 @@
 <template>
+ <!-- <colorPicker v-model="color" /> -->
   <div class="mainnav">
     <MainNav />
   </div>
 
-  <div class="leftmenu">
-    <LeftMenu />
+  <div class="helper">
+    <Helper />
   </div>
 
   <div class="home">
@@ -26,7 +27,7 @@
       </div>
     </div>
   </div> -->
-  -->
+
 
   <!-- <div class="mainnav">
   <MainNav/>
@@ -38,14 +39,14 @@
 
 <script>
 import MainNav from "./views/MainNav.vue";
-import LeftMenu from "./views/LeftMenu.vue";
+import Helper from "./views/Helper.vue";
 import Home from "./views/Home.vue";
 // import Helper from './views/Helper.vue'
 export default {
   name: "App",
   components: {
     MainNav,
-    LeftMenu,
+    Helper,
     Home,
   },
 };
@@ -74,7 +75,7 @@ body {
   left: 450px;
   top: 150px;
 }
-.leftmenu {
+.helper {
 
    position: absolute;
     width: 450px;

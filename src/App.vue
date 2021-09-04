@@ -1,18 +1,23 @@
 <template>
- <!-- <colorPicker v-model="color" /> -->
+  <!-- <colorPicker v-model="color" /> -->
   <div class="mainnav">
-   
     <MainNav />
- 
   </div>
 
-  <div class="leftBar">
-    <LeftBar />
+  <div class="content">
+    <div class="leftBar">
+      <LeftBar />
+    </div>
+
+    <div class="right-content" >
+      <router-view />
+   </div> 
   </div>
 
-  <div class="home">
+  <!-- <div class="home">
     <Home />
-  </div>
+  </div> -->
+
   <!-- <div class="row">
       <div class="col-xs-2 col-xs-offset-2">
         <div class="list-group">
@@ -29,7 +34,6 @@
       </div>
     </div>
   </div> -->
-
 
   <!-- <div class="mainnav">
   <MainNav/>
@@ -61,15 +65,15 @@ body {
 }
 .mainnav {
   /* position: -webkit-sticky; /* Safari */
-  /* position: sticky; */ 
-  position: absolute;
+  /* position: sticky; */
+  position: fixed;
 
   width: 100%;
   height: 120px;
   left: 0px;
   top: 0px;
 }
-.home {
+/* .home {
     background-color: #f1f1f1;
     border-radius: 20px;
   position: absolute;
@@ -78,14 +82,32 @@ body {
   height: 1500px;
   left: 380px;
   top: 120px;
+} */
+/* .leftBar {
+  position: absolute; 
+  width: 450px;s
+  height: 1500px;
+  left: 0px;
+  top: 120px;
+} */
+.content {
+  display: flex;
+  /* grid-template-columns: 1fr 2fr;   */
+  margin-top:120px;
+  margin-left: 60px;
 }
-.leftBar {
+.content .leftBar {
+  margin-top:100px;
+}
+.content .right-content {
+  margin: 0 auto;
+  left: 50%;
+  background-color: #f1f1f1;
+  width: 970px;
+  height: 1500px;
+  border-radius: 20px;
+  padding:20px;
 
-   position: absolute;
-    width: 450px;
-height: 1500px;
-left: 0px;
- top: 120px;
 }
 </style>>
 

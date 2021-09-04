@@ -25,29 +25,29 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home,
-    children:[
-      {
-        path:'appointment',
-        component:Appointment,
-      },
-      {
-        path:'familyMember',
-        component:FamilyMember,
-      },
-      {
-        path:'helpCenter',
-        component:HelpCenter,
-      },
-      {
-        path:'profile',
-        component:Profile,
-      },
-      {
-        path:'search',
-        component:Search,
-      },
-    ]
+    component: Home
+    // children:[
+    //   {
+    //     path:'appointment',
+    //     component:Appointment,
+    //   },
+    //   {
+    //     path:'familyMember',
+    //     component:FamilyMember,
+    //   },
+    //   {
+    //     path:'helpCenter',
+    //     component:HelpCenter,
+    //   },
+    //   {
+    //     path:'profile',
+    //     component:Profile,
+    //   },
+    //   {
+    //     path:'search',
+    //     component:Search,
+    //   },
+    
   },
   // {
   //   path: '/login',
@@ -58,7 +58,32 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About
-  }
+  },
+   {
+    path: '/myAppointment',
+    name: 'Appointment',
+    component: Appointment
+  },
+  {
+    path: '/profile',
+    name: 'Profile',
+    component: Profile
+  },
+  {
+    path: '/bookAppointment',
+    name: 'Search',
+    component: Search
+  },
+  {
+    path: '/familyMember',
+    name: 'FamilyMember',
+    component: FamilyMember
+  },
+  {
+    path: '/helpCenter',
+    name: 'HelpCenter',
+    component: HelpCenter
+  },
 ]
 
 const router = createRouter({

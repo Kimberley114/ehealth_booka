@@ -1,5 +1,6 @@
 <template>
- <el-affix :offset="160">
+
+<div class="menu" >
 
   <el-menu
     class="el-menu-vertical-demo"
@@ -7,41 +8,42 @@
     @close="handleClose"
   >  
   <router-link
-      to="/home/appointment">
+      to="/myAppointment">
     <el-menu-item index="1">
-      <box-icon name="calendar"></box-icon>
+     <i class='bx bxs-calendar'></i>
       <template #title>  My Appointments</template>
     </el-menu-item></router-link>
 
     <router-link
-      to="/home/search">
+      to="/bookAppointment">
     <el-menu-item index="2">
-      <box-icon name="clinic"></box-icon>
+      <i class='bx bx-clinic'></i>
       <template #title>  Book an Appointment</template>
     </el-menu-item></router-link>
 
      <router-link
-      to="/home/profile">
+      to="/profile">
     <el-menu-item index="3" >
-      <box-icon name="map"></box-icon>
+     <i class='bx bx-map'></i>
       <template #title>  Profile</template>
     </el-menu-item></router-link>
 
      <router-link
-      to="/home/familyMember">
+      to="/familyMember">
     <el-menu-item index="4">
-      <box-icon name="group"></box-icon>
+      <i class='bx bxs-group'></i>
       <template #title>  Family Members</template>
     </el-menu-item></router-link>
 
      <router-link
-      to="/home/helperCenter">
+      to="/helpCenter" >
     <el-menu-item index="5">
-      <box-icon name="help-circle"></box-icon>
-      <template #title>  Help Center</template>
+      <i class='bx bxs-help-circle'></i>
+      <template #title text-decoration="none">  Help Center</template>
     </el-menu-item></router-link>
   </el-menu>
-   </el-affix >
+  </div>
+
 </template>
 
 <script>
@@ -49,3 +51,13 @@ export default {
   name: "Menu",
 };
 </script>
+<style scoped>
+.menu i {
+    font-size: 24px;
+    color:'#409eff'
+  
+}
+.menu{
+    text-decoration: none;
+}
+</style>

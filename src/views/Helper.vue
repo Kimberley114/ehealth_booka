@@ -11,10 +11,10 @@
             class="transition-box"
             style="padding-left: -20px; margin-top: 3px"
           >
-            <box-icon name="globe" animation="tada-hover"></box-icon>Language
+            <i class='bx bx-world bx-tada' ></i>Language
           </div>
           <div class="transition-box">
-            <box-icon name="font-size" animation="tada-hover"></box-icon>Enlarge
+            <i class='bx bx-font-size bx-tada' ></i>Enlarge
             text
           </div>
         <!-- <div class="transition-box"><box-icon name='palette' color="red" type='solid' animation='tada-hover'  ></box-icon>Color theme </div> -->
@@ -24,17 +24,12 @@
     
           </div>
           <div class="transition-box">
-            <box-icon
-              name="brightness-half"
-              type="solid"
-              animation="tada-hover"
-            ></box-icon
-            >Dark mode
+            <i class='bx bxs-brightness-half bx-tada' ></i>Dark mode
           </div>
           <div class="transition-box">Simply design</div>
-          <div class="transition-box">Voice assistant</div>
+          <!-- <div class="transition-box">Voice assistant</div> -->
           <div class="transition-box">
-            <box-icon name="undo" animation="tada-hover"></box-icon>Reset all
+            <i class='bx bx-undo bx-tada' ></i>Reset all
             settings
           </div>
         </div>
@@ -75,7 +70,7 @@ export default {
   height: 10px;
   /* border-radius: 4px; */
   text-align: center;
-  color: #409eff;
+  color: black;
   height: 50px;
   background-color: white;
   box-sizing: border-box;
@@ -83,5 +78,6 @@ export default {
   border-style: solid;
   border-width: 2px;
 }
+
 
 </style>

@@ -1,5 +1,6 @@
 <template>
 	<div >
+		<router-view></router-view>
 		<!-- <div>
 			<ul class="nav nav-tabs">
 				<li>
@@ -19,12 +20,20 @@
 
 <script>
 import Appointment from "../components/Appointment.vue"
-import Calender from "../components/Calender.vue"
+import Search from "../components/Search.vue"
+import FamilyMember from "../components/FamilyMember.vue"
+import HelpCenter from "../components/HelpCenter.vue"
+import Profile from "../components/Profile.vue"
 	export default {
 		name:'Home',
 		components:{
 			Appointment,
-			Calender
+			FamilyMember,
+			HelpCenter,
+			Profile,
+			Search
+
+
       }
 	}
 

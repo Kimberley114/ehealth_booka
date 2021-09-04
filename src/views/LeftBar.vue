@@ -21,14 +21,13 @@ export default {
 <style scoped>
 .helper {
   position: fixed;
-  position: absolute;
   z-index: 999;
-  top: 0;
-  top: 20px;
+
+  margin-top: -25px;
   left: 80px;
 }
 .menu {
-  position: absolute;
+
   top: 100px;
   left: 140px;
 }

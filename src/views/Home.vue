@@ -1,6 +1,6 @@
 <template>
 	<div >
-		<div>
+		<!-- <div>
 			<ul class="nav nav-tabs">
 				<li>
 					<router-link class="list-group-item" active-class="active" to="/home/appointment">Appointments</router-link>
@@ -10,7 +10,7 @@
 				</li>
 			</ul>
 			<router-view></router-view>
-		</div>
+		</div> -->
 	</div>
   <div>
 

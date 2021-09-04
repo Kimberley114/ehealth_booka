@@ -7,7 +7,7 @@
   />
 
   <!-- displaying icon -->
-  <box-icon name="body" animation="burst-hover"></box-icon>
+  <!-- <box-icon name="body" animation="burst-hover"></box-icon>
   <box-icon name="globe" animation="tada-hover"></box-icon>
   <box-icon
     name="palette"
@@ -22,6 +22,7 @@
     type="solid"
     animation="tada-hover"
   ></box-icon>
+  <box-icon type='solid' name='color-fill'></box-icon>
   <box-icon name="undo" animation="tada-hover"></box-icon>
   <box-icon name="sun" type="solid" animation="tada-hover"></box-icon>
   <box-icon name="moon" type="solid" animation="tada-hover"></box-icon>
@@ -46,8 +47,9 @@
   <box-icon name="help-circle"></box-icon>
   <box-icon name="bookmark-heart"></box-icon>
   <box-icon name="map-alt"></box-icon>
-  <hr />
+  <hr /> -->
   <!-- top left icon title -->
+
   <div class="floatleft">
     <div class="floatleft" id="logoimg">
       <img
@@ -106,20 +108,21 @@ export default {
 
 <style scoped>
 #logoimg {
-  margin-left: 100px;
-  margin-top: 15px;
+  margin-left: 140px;
+  margin-top: 29px;
 }
 h5 {
   font-family: "Sofia", sans-serif;
-  margin-top: -23px;
+  margin-top: -16px;
   width: 100%;
-  margin-left: 148px;
+  margin-left: 188px;
   color: grey;
 }
 h3 {
   color: dodgerblue;
   width: 100%;
-  margin-left: 100px;
+   margin-top: 30px;
+  margin-left: 143px;
 }
 .floatleft {
   float: left;

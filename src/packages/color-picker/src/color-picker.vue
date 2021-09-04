@@ -17,8 +17,9 @@
           v-on:mouseout="hoveColor = null"
         >Default</div>
       </div>
+      <br>
       <div class="bd">
-        <h3>Main theme</h3>
+        <h3>Main palette</h3>
         <ul class="tColor">
           <li
             v-for="(color, index) of tColor"
@@ -43,6 +44,7 @@
             </ul>
           </li>
         </ul>
+  
         <h3>Basic color</h3>
         <ul class="tColor">
           <li
@@ -54,7 +56,8 @@
             v-on:click="updataValue(color)"
           ></li>
         </ul>
-        <h3 v-on:click="triggerHtml5Color">More color...</h3>
+       
+        <h3 v-on:click="triggerHtml5Color"><box-icon type='solid' name='color-fill' size='sm'></box-icon> More color....</h3>
         <!-- 用以激活HTML5颜色面板 -->
         <input type="color"
           ref="html5Color"

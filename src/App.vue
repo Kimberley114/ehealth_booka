@@ -1,11 +1,13 @@
 <template>
  <!-- <colorPicker v-model="color" /> -->
   <div class="mainnav">
+   
     <MainNav />
+ 
   </div>
 
-  <div class="helper">
-    <Helper />
+  <div class="leftBar">
+    <LeftBar />
   </div>
 
   <div class="home">
@@ -39,14 +41,14 @@
 
 <script>
 import MainNav from "./views/MainNav.vue";
-import Helper from "./views/Helper.vue";
+import LeftBar from "./views/LeftBar.vue";
 import Home from "./views/Home.vue";
 // import Helper from './views/Helper.vue'
 export default {
   name: "App",
   components: {
     MainNav,
-    Helper,
+    LeftBar,
     Home,
   },
 };
@@ -63,25 +65,27 @@ body {
   position: absolute;
 
   width: 100%;
-  height: 140px;
+  height: 120px;
   left: 0px;
   top: 0px;
 }
 .home {
     background-color: #f1f1f1;
+    border-radius: 20px;
   position: absolute;
+
   width: 970px;
   height: 1500px;
-  left: 450px;
-  top: 150px;
+  left: 380px;
+  top: 120px;
 }
-.helper {
+.leftBar {
 
    position: absolute;
     width: 450px;
 height: 1500px;
 left: 0px;
- top: 150px;
+ top: 120px;
 }
 </style>>
 

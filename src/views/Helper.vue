@@ -1,5 +1,6 @@
 <template>
   <div class="helper">
+     <el-affix :offset="120">
     <el-button @click="show3 = !show3" type="primary">
       Accessibility Helper</el-button
     >
@@ -39,7 +40,7 @@
         </div>
       </el-collapse-transition>
     </div>
-
+ </el-affix>
   </div>
 </template>
 
@@ -68,22 +69,19 @@ export default {
 <style scoped>
 
 .transition-box {
-  width: 180px;
+
+  
+  width: 200px;
   height: 10px;
   /* border-radius: 4px; */
   text-align: center;
   color: #409eff;
   height: 50px;
-
+  background-color: white;
   box-sizing: border-box;
   border-color: #409eff;
   border-style: solid;
   border-width: 2px;
 }
-.helper {
-  position: fixed;
-  position: absolute;
-  top: 20px;
-  left: 100px;
-}
+
 </style>

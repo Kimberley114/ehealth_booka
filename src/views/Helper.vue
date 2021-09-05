@@ -1,6 +1,6 @@
 <template>
   <div class="helper">
-     <el-affix :offset="120">
+     <el-affix :offset="150">
     <el-button @click="show3 = !show3" type="primary">
       Accessibility Helper</el-button
     >

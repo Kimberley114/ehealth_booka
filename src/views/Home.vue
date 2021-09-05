@@ -1,17 +1,7 @@
 <template>
 	<div >
 		<router-view></router-view>
-		<!-- <div>
-			<ul class="nav nav-tabs">
-				<li>
-					<router-link class="list-group-item" active-class="active" to="/home/appointment">Appointments</router-link>
-				</li>
-				<li>
-					<router-link class="list-group-item" active-class="active" to="/home/calender">Calenders</router-link>
-				</li>
-			</ul>
-			<router-view></router-view>
-		</div> -->
+
 	</div>
   <div>
 

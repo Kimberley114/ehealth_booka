@@ -102,10 +102,12 @@ body {
 .content .right-content {
   margin: 0 auto;
   left: 50%;
-  background-color: #f1f1f1;
+border-style: solid;
+border-color:dodgerblue;
+  border-width: 2px;
   width: 970px;
-  height: 1500px;
-  border-radius: 20px;
+  height: 630px;
+  border-radius: 10px;
   padding:20px;
 
 }

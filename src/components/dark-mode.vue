@@ -1,11 +1,5 @@
 <template>
-
-this is profile page
-<i class='bx bxs-palette bx-tada' 
-      v-bind:style="`color: ${mode}`"
-      v-on:click="myColorModeHandler"
-     ></i>
-  <DarkMode>
+  <DarkMode @change-mode="myColorModeHandler">
     <template v-slot="{ mode }">
       Color mode: {{ mode }}
     </template>
@@ -13,19 +7,11 @@ this is profile page
 </template>
 
 <script>
-import { DarkMode } from '@vue-a11y/dark-mode'
-
 export default {
-
-  name: 'Profile',
-  components: {
-    DarkMode
-  },
-
-
+  // ...
   methods: {
-    myColorModeHandler: function (e) {
-      console.log(e)
+    myColorModeHandler (mode) {
+      // action here
     }
   }
 }
@@ -48,4 +34,3 @@ body {
   color: var(--color);
 }
 </style>
-

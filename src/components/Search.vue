@@ -1,6 +1,6 @@
 <template>
 	<ul>
-		<li>news001</li>
+		<li>ne  search</li>
 		<li>news002</li>
 		<li>news003</li>
 	</ul>

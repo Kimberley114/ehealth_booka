@@ -25,29 +25,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
-    // children:[
-    //   {
-    //     path:'appointment',
-    //     component:Appointment,
-    //   },
-    //   {
-    //     path:'familyMember',
-    //     component:FamilyMember,
-    //   },
-    //   {
-    //     path:'helpCenter',
-    //     component:HelpCenter,
-    //   },
-    //   {
-    //     path:'profile',
-    //     component:Profile,
-    //   },
-    //   {
-    //     path:'search',
-    //     component:Search,
-    //   },
-    
+    component: Home 
   },
   // {
   //   path: '/login',

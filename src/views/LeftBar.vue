@@ -23,12 +23,12 @@ export default {
   position: fixed;
   z-index: 999;
 
-  margin-top: -25px;
+  margin-top: -18px;
   left: 80px;
 }
 .menu {
 
-  top: 100px;
+  top: 120px;
   left: 140px;
 }
 </style>

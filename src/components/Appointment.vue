@@ -28,8 +28,8 @@ export default {
   components: { CardAppoint },
   data() {
     return {
-current: 3,
-history:4
+current: 1,
+history:0
 	};
   },
 };
